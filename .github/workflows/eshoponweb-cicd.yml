@@ -1,5 +1,10 @@
 name: eShopOnWeb Build and Test
 
+on:
+  push:
+    branches:
+    - '*'
+
 
 env:
   RESOURCE-GROUP: rg-az400-eshoponweb-testaus
